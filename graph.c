@@ -301,7 +301,7 @@ void dijkstra_chemin(Graph* g, Station* depart, Station* arrivee, Station** chem
 			
 				nomLigne = voisin->nomLigne; 
 
-				printf(" %s (corresponde : %d minutes). \n Puis prendre la ligne %s jusqu'a ", cheminFinal[i]->nom, ligneTime, voisin->nomLigne);
+				printf(" %s (correspondance : %d minutes). \n Puis prendre la ligne %s jusqu'a ", cheminFinal[i]->nom, ligneTime, voisin->nomLigne);
 				ligneTime = voisin->tmp_parcours;
 			}
 			else
